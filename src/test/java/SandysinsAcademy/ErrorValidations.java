@@ -28,7 +28,7 @@ public class ErrorValidations extends BaseTests{
 	@Test
 	public void ProductErrorValidation() throws IOException, InterruptedException
 	{
-
+		//Demo comments
 		String productName = "ZARA COAT 3";
 		productCatalogue productCatalogue = LP.loginApplication("sunny938650@gmail.com", "Kratos@1234");
 		List<WebElement> products = productCatalogue.getProductList();
